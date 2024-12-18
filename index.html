@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae - Naisyela Farrakh Nabila</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Naisyela Farrakh Nabila",
+        "url": "https://www.instagram.com/nayne.fun?igsh=MWJxcnM1MDRndnBsMw==",
+        "image": "img/Gambar WhatsApp 2024-12-18 pukul 22.40.01_ad7965a3.jpg",
+        "jobTitle": "Staf Administrasi",
+        "alumniOf": {
+            "@type": "EducationalOrganization",
+            "name": "Universitas Yatsi Madani"
+        },
+        "sameAs": [
+            "https://instagram.com/nayne.fun",
+            "mailto:naisyelafnabila@gmail.com",
+            "tel:083879866394"
+        ],
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Indonesia"
+        },
+        "birthDate": "2000-01-01"  // Adjust the birth date accordingly
+    }
+    </script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="profile-container">
+            <img src="img/Gambar WhatsApp 2024-12-18 pukul 22.40.01_ad7965a3.jpg" alt="Profile" class="profile-image">
+            <div class="profile-info">
+                <p>Welcome!</p>
+                <h1>NAISYELA FARRAKH NABILA</h1>
+                <div class="social-links">
+                    Follow Me On:<br>
+                    <a href="https://www.instagram.com/nayne.fun?igsh=MWJxcnM1MDRndnBsMw=="><i class="fab fa-instagram"></i> @nayne.fun</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <a href="#tentang" class="active"><i class="fas fa-user"></i>Tentang Saya</a>
+        <a href="#pendidikan"><i class="fas fa-graduation-cap"></i>Pendidikan</a>
+        <a href="#keahlian"><i class="fas fa-laptop-code"></i>Keahlian</a>
+        <a href="#pengalaman"><i class="fas fa-briefcase"></i>Pengalaman</a>
+        <a href="#hobi"><i class="fas fa-gamepad"></i>Hobi</a>
+        <a href="#kontak"><i class="fas fa-phone-alt"></i>Kontak</a>
+    </div>
+
+    <!-- Kontainer Utama -->
+    <div class="container">
+        <!-- Tentang Saya -->
+        <section id="tentang">
+            <h2><i class="fas fa-user-circle"></i>Tentang Saya</h2>
+            <p>Saya adalah lulusan SMK Jaya Buana dan saat ini saya melanjutkan pendidikan di Universitas Yatsi Madani
+                dengan jurusan Ilmu Komputer, selain itu saya juga bekerja dibidang keuangan sebagai staf administrasi.
+            </p>
+        </section>
+
+        <!-- Pendidikan -->
+        <section id="pendidikan">
+            <h2><i class="fas fa-school"></i>Riwayat Pendidikan</h2>
+            <ul>
+                <li>SD Negeri Keramat Jati (2011 - 2017)</li>
+                <li>SMP Negeri 2 Kresek (2017 - 2020)</li>
+                <li>SMK Jaya Buana (2020 - 2023)</li>
+            </ul>
+        </section>
+
+        <!-- Keahlian -->
+        <section id="keahlian">
+            <h2><i class="fas fa-cogs"></i>Keahlian</h2>
+            <p>Ms. Word, Ms. Excel, Google Spreadsheet.</p>
+        </section>
+
+        <!-- Pengalaman -->
+        <section id="pengalaman">
+            <h2><i class="fas fa-briefcase"></i>Pengalaman</h2>
+            <p>Memiliki pengalaman bekerja dibidang keuangan sebagai staf administrasi.</p>
+        </section>
+
+        <!-- Hobi -->
+        <section id="hobi">
+            <h2><i class="fas fa-music"></i>Hobi</h2>
+            <p>Traveling, Mendengarkan Musik, Menonton Film dengan Genre Fiksi Ilmiah.</p>
+        </section>
+
+        <!-- Kontak -->
+        <section id="kontak">
+            <h2><i class="fas fa-envelope"></i>Kontak</h2>
+            <p><i class="fas fa-envelope"></i> Email: <a
+                    href="mailto:naisyelafnabila@gmail.com">naisyelafnabila@gmail.com</a></p>
+            <p><i class="fab fa-whatsapp"></i> WhatsApp: <a href="tel:083879866394">083879866394</a></p>
+            <p><i class="fab fa-instagram"></i> Instagram: <a href="https://www.instagram.com/nayne.fun?igsh=MWJxcnM1MDRndnBsMw=="> @nayne.fun</a></p>
+        </section>
+
+    </div>
+
+    <!-- Scroll-to-Top Button -->
+    <div class="scroll-top" onclick="scrollToTop()">⬆</div>
+
+    <!-- Footer -->
+    <footer>
+        &copy; Naisyela Farrakh Nabila | Universitas Yatsi Madani | 2024
+    </footer>
+
+    <script>
+        // Scroll-to-Top Button
+        const scrollTopBtn = document.querySelector('.scroll-top');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 200) {
+                scrollTopBtn.style.display = 'block';
+            } else {
+                scrollTopBtn.style.display = 'none';
+            }
+        });
+
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+    </script>
+</body>
+
+</html>
